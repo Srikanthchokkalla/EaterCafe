@@ -1,0 +1,232 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+span {
+    color: #ce3232;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    position: relative;
+    text-transform: uppercase;
+}
+
+/* NAVBAR STARTS */
+.navbar {
+    background-color: #252525;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navEatery {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.navItems {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+}
+
+.navItems .navFirst li>a {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.navItems .navSecond li>a {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navItems .navSecond .reserve {
+    background-color: #ce3232;
+    padding: 5px 25px;
+}
+
+/* NAVBAR ENDS */
+/* ABOUT STARTS */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h2,
+h4,
+h3 {
+    font-weight: bold;
+}
+
+h2 {
+    color: #353535;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #454545;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    color: #bfbdbd;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+p {
+    color: #757575;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+
+img {
+    width: 100%;
+}
+
+/* ABOUT ENDS */
+/* CHEFS STARTS */
+.chefBio {
+    margin-top: 20px;
+}
+
+.chefBio .bioHeading {
+    margin-bottom: 40px;
+}
+
+.bioData {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bioBlocks {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.blockName {
+    text-align: center;
+}
+
+.blockName>p {
+    color: #bfbdbd;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+/* CHEFS ENDS */
+/* MENU STARTS */
+.menuHeading {
+    text-align: center;
+}
+
+.menuImgs>img {
+    width: 33%;
+    display: inline;
+}
+
+/* MENU ENDS */
+/* CONTACTS STARTS */
+.contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.contact .location>iframe {
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.contact .contactUs {
+    margin-left: 50px;
+}
+
+.contact .fullName,
+.emailAddress {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.formControl,
+textarea {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+/* CONTACTS ENDS */
+/* FOOTER STARTS */
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    /* justify-content: space-around; */
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
+
+.footer .openHours {
+    /* background-image: url(../Images/menu-image6.jpg); */
+    background-size: cover;
+    z-index: 22;
+    /* background-color: #252525; */
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.social li {
+    margin-left: 15px;
+}
+
+.socialBottom p {
+    margin-left: 60px;
+}
+/* FOOTER ENDS */
